@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:samplewidgets/Animated_Widgets/animated_opacity.dart';
 
-import 'Animated_Widgets/animated_model_barrie.dart';
+import 'Animated_Widgets/aniamated_postinioned.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: AnimatedOpacityWidgets(),
+      home: AnimatedPositionedWidget(),
     );
   }
 }
